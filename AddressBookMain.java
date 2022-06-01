@@ -37,7 +37,6 @@ public class AddressBookMain {
                     System.out.println("No contact found!");
                 }
                 break;
-
             case 3:
                 System.out.println("Enter first-name to remove contact:");
                 String name = sc.nextLine();
@@ -48,11 +47,6 @@ public class AddressBookMain {
                 }else {
                     System.out.println("Contact not found!");
                 }
-
-//                for (Contact : addressBook.getContactList()) {
-//
-//                }
-//                if(addressBook.getContactList().contains())
                 break;
             case 4:
                 if(addressBook.getContactList().size() !=0){
@@ -60,6 +54,7 @@ public class AddressBookMain {
                 }else {
                     System.out.println("No contact found!");
                 }
+                break;
         }
     }
 }
